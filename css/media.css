@@ -1,0 +1,34 @@
+/*mobile-view*/
+@media(min-width:320px){
+    
+    .port_col{
+        width:100%;
+        padding:10px;
+    }
+}
+
+/*ipad-view*/
+@media(min-width:720px){
+    .port_row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    
+    .port_col{
+        width:50%;
+        padding:10px;
+    }
+}
+
+/*laptop-view*/
+@media(min-width:960px){
+    .port_row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    
+    .port_col{
+        width:33.33%;
+        padding:10px;
+    }
+}
